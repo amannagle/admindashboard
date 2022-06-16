@@ -31,13 +31,18 @@
 }
 
 .logo {
-    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 15px;
     
 }
-
+.doge
+{
+    height: 40px;
+    width: 40px;
+    align-self:center;
+}
 .logo i
 {
     font-size: 30px;
@@ -70,3 +75,78 @@ i
     margin: 15px;
 }
 
+.topbar
+{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+input
+{
+    width: 850px;
+    border-radius: 10px;
+    min-height: 40px;
+}
+.topflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomflex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.doge_bottom
+{
+    height: auto;
+    width: 120px;
+}
+.message p
+{
+    margin: 0;
+}
+.message
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greet_profile
+{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.buttons
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+button
+{
+    background-color: teal;
+    padding: 20px;
+    border-radius: 25px;
+    height: 70px;
+    width: 130px;
+    color: white;
+}
