@@ -272,6 +272,7 @@ h2,h3
     width: 50px;
     opacity: 1;
     -webkit-filter: invert(100%);
+    margin-left: 10px;
 }
 
 .users img
