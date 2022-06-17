@@ -206,13 +206,21 @@ button
     margin-left: 30px;
 }
 
-.announcements
+.announcements,.trendingwrap
 {
     background-color: white;
     padding: 15px;
     border-radius: 10px;
+    
 }
 
+.announcements p,.card p{
+    color: grey;
+}
+
+.card p{
+    margin-left: 0;
+}
 .announcement h3,p
 {
     margin: 10px;
