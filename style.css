@@ -206,14 +206,23 @@ button
     margin-left: 30px;
 }
 
-.announcements,.trendingwrap
+.announcements
 {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
     
 }
-
+.trendingwrap{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px;
+}
 .announcements p,.card p{
     color: grey;
 }
@@ -225,4 +234,55 @@ button
 {
     margin: 10px;
 
+}
+
+
+.profileinfo > :nth-child(1)
+{
+    font-weight: bold;
+}
+
+.profileinfo > :nth-child(2)
+{
+    color: grey;
+}
+.logo_image
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.logo_img
+{
+    height: auto;
+    width: 50px;
+    opacity: 1;
+    -webkit-filter: invert(100%);
+}
+
+.users img
+{
+    height: 80px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.users
+{
+    display: flex;
+    
+}
+
+.pfps
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pfps p
+{
+    white-space: nowrap;
 }
