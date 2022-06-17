@@ -86,15 +86,17 @@ i
 
 input
 {
-    width: 850px;
+    width: 45vw;
     border-radius: 10px;
     min-height: 40px;
+    background-color: #d1d5db;
+    padding: 4px;
 }
 .topflex
 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 200px;
 }
 
 .bottomflex
@@ -114,7 +116,7 @@ input
 .doge_bottom
 {
     height: auto;
-    width: 120px;
+    width: 80px;
 }
 .message p
 {
@@ -132,6 +134,8 @@ input
     display: flex;
     gap: 10px;
     font-weight: bold;
+    min-width: 300px;
+    padding: 5px 15px;
 }
 
 .buttons
@@ -143,10 +147,16 @@ input
 
 button
 {
-    background-color: teal;
+    background-color: #0891b2;
     padding: 20px;
     border-radius: 25px;
-    height: 70px;
+    height: 65px;
     width: 130px;
     color: white;
+}
+
+.topbar img
+{
+    background-color: yellow;
+    border-radius: 50%;
 }
